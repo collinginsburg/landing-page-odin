@@ -20,6 +20,26 @@
 footer{
     flex: 0 0 100px;
 }
+
+/* hero section */
+header{
+    display: flex;
+}
+header a{
+    text-decoration: none;
+}
+.header-logo{
+    margin-right: auto;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.header-link{
+    font-size:18px;
+    color: #E5E7EB;
+    margin-right: 20px;
+}
+
+
 /* colors */
 .hero-section, footer{
     background-color: #1F2937;
@@ -33,4 +53,3 @@ footer{
     padding: 0 50px 0 50px;
     /* flex: 1; */
 }
-
