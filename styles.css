@@ -22,6 +22,8 @@ footer{
 }
 
 /* hero section */
+
+        /* header */
 header{
     display: flex;
     margin-top: 10px;
@@ -40,6 +42,8 @@ header a{
     color: #E5E7EB;
     margin-right: 20px;
 }
+        /* hero */
+
 
 
 /* colors */
