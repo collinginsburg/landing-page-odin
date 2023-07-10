@@ -22,6 +22,10 @@ footer{
 }
 
 /* hero section */
+.hero-section{
+    display: flex;
+    flex-direction: column;
+}
 
         /* header */
 header{
@@ -43,7 +47,14 @@ header a{
     margin-right: 20px;
 }
         /* hero */
-
+.hero{
+    display: flex;
+    height: 90%;
+    align-items: center;
+}
+.hero > *{
+    flex: 1;
+}
 
 
 /* colors */
