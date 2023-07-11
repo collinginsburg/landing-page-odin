@@ -104,7 +104,6 @@ img{
 .gallery-section{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     gap:40px;
 }
@@ -121,6 +120,12 @@ img{
     display: flex;
     justify-content: center;
     gap: 60px;
+}
+.gallery-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .gallery-box{
     width: 150px;
