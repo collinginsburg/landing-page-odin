@@ -37,7 +37,6 @@ header a{
     margin-right: auto;
     font-size: 24px;
     font-weight: 800;
-    color: #F9FAF8; /* use white-text class instead*/
 }
 .header-link-group{
     display: flex;
@@ -45,7 +44,6 @@ header a{
 }
 .header-link{
     font-size:18px;
-    color: #E5E7EB; /*use sub-white-text class */
 }
 /* HERO SECTION */
 
@@ -195,6 +193,10 @@ footer{
 /* colors */
 .white-text{
     color:#f9faf8;
+}
+.sub-white-text{
+    color: #E5E7EB;
+
 }
 .hero-section, footer, header{
     background-color: #1F2937;
