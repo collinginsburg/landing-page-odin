@@ -184,13 +184,19 @@ img{
     .cta-button{
         background-color: transparent;
         padding: 3px 25px 3px 25px;
-        border: solid 1px #f9faf8;
+        border: solid 2px #f9faf8;
         border-radius: 5px;
+        font-weight: 800;
     }
-
+/* CTA SECTION */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* colors */
-.cta{
+.white-text{
     color:#f9faf8;
 }
 .hero-section, footer{
