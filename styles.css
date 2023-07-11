@@ -49,22 +49,22 @@ header a{
 }
 /* HERO SECTION */
 
+.hero-section{
+    display: flex;
+    align-items: center;
+}
+
 .hero-wrapper{
     display: flex;
-    height: 90%;
+    height: 250px;
     width: 100%;
     align-items: center;
     justify-content: center;
+    gap: 20px;
 }
-.hero{
-    display: flex;
-    height: 250px;
-    justify-content: space-between;
-    gap: 50px;
-    
-}
-.hero > *{
+.hero-wrapper > *{
     flex: 1;
+    max-width: 800px;
 }
 .hero-title{
     font-size: 48px;
@@ -88,7 +88,6 @@ header a{
 }
 
 .hero-image{
-    background-color: grey;
     height: 100%;
 }
 
